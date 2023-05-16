@@ -1,0 +1,314 @@
+prefixes:
+ rr: "http://www.w3.org/ns/r2rml#"
+ nr: "http://group3.papers.es/ontology/"
+ nr2: "http://group3.papers.es/resource/"
+ ns: "http://group3.papers.es/ontology/PaperSites/"
+ rml: "http://semweb.mmlab.be/ns/rml#"
+ owl: "http://www.w3.org/2002/07/owl#"
+ rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xml: "http://www.w3.org/XML/1998/namespace"
+ xsd: "http://www.w3.org/2001/XMLSchema#"
+ rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+
+mappings:
+  TriplesMapAllData:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Paper/$(ID)
+    po:
+      - [a, ns:]
+      - [nr:hasTitle, $(Title)]
+      - [nr:publicationDate,$(publication_date_title)]
+      - [nr:similar_to,$(most_likely_to_title_OA)~iri]
+      - [nr:hasAuthor,nr2:Person/$(author_1)~iri]
+      - [nr:hasAuthor,nr2:Person/$(author_2)~iri]
+      - [nr:hasAuthor,nr2:Person/$(author_3)~iri]
+      - [nr:hasAuthor,nr2:Person/$(author_4)~iri]
+      - [nr:hasAuthor,nr2:Person/$(author_5)~iri]
+      - [nr:hasType,$(type_of_paper)]
+      - [nr:belongsToTopic,nr2:Topic/$(belongs_to_topic)~iri]
+      - [nr:belongsToCluster,nr2:Cluster/$(belongs_to_cluster)~iri]
+      - [nr:belongsToProject,nr2:Project/$(project_1)~iri]
+      - [nr:belongsToProject,nr2:Project/$(project_2)~iri]
+      - [nr:topicProbability,$(topic_probability)]
+      - [nr:acknowledges,nr2:Person/$(acknowledge_person_1)~iri]
+      - [nr:acknowledges,nr2:Person/$(acknowledge_person_2)~iri]
+      - [nr:acknowledges,nr2:Person/$(acknowledge_person_3)~iri]
+      - [nr:acknowledges,nr2:Person/$(acknowledge_person_4)~iri]
+      - [nr:acknowledges,nr2:Person/$(acknowledge_person_5)~iri]
+      - [nr:acknowledges,nr2:Organitation/$(organitation_name_1)~iri]
+      - [nr:acknowledges,nr2:Organitation/$(organitation_name_2)~iri]
+      - [nr:acknowledges,nr2:Organitation/$(organitation_name_3)~iri]
+      - [nr:acknowledges,nr2:Organitation/$(organitation_name_4)~iri]
+      - [nr:acknowledges,nr2:Organitation/$(organitation_name_5)~iri]
+      - [nr:acknowledges,nr2:Organitation/$(organitation_name_6)~iri]
+      - [nr:similarTo, $(most_likely_to_title_OA)~iri]
+      - [owl:sameAs, $(most_likely_to_title_WD)~iri] 
+
+  TriplesMapProject:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Project/$(project_1)
+    po:
+      - [a, nr:Project~iri]
+      - [nr:name, $(project_1)]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_1)~iri]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_2)~iri]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_3)~iri]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_4)~iri]
+
+  TriplesMapProject2:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Project/$(project_2)
+    po:
+      - [a, nr:Project~iri]
+      - [nr:name, $(project_2)]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_1)~iri]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_2)~iri]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_3)~iri]
+      - [nr:belongsToOrganization, nr2:Organitation/$(organitation_name_4)~iri]
+
+  TriplesMapCluster:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Cluster/$(belongs_to_cluster)
+    po:
+      - [a, nr:Cluster~iri]
+      - [nr:hasMember, nr2:Paper/$(ID)~iri]
+
+  TriplesMapTopic:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/0>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_0)]
+
+  TriplesMapTopic1:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/1>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_1)]
+
+  TriplesMapTopic2:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/2>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_2)]
+
+  TriplesMapTopic3:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/3>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_3)]
+
+  TriplesMapTopic4:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/4>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_4)]
+
+  TriplesMapTopic5:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/5>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_5)]
+
+  TriplesMapTopic6:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/6>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_6)]
+
+  TriplesMapTopic7:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/7>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_7)]
+
+  TriplesMapTopic8:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/8>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_8)]
+
+
+  TriplesMapTopic9:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/9>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_9)] 
+
+
+  TriplesMapTopic10:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: <http://group3.papers.es/resource/Topic/10>
+    po:
+      - [a, nr:Topic~iri]
+      - [nr:words, $(topic_words_10)]
+
+
+  TriplesMaporganitation:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Organitation/$(organitation_name_1)
+    po:
+      - [a, nr:Organitation~iri]
+      - [nr:name, $(organitation_name_1)]
+      - [nr:locatedAt, $(location_organitation_1)]
+      - [nr:hasWebsite, $(organitation_website_1)]
+      - [owl:sameAs, $(same_as_organitation_1_WD)~iri]
+      - [owl:sameAs, $(same_as_organitation_1_OA)~iri]
+
+  TriplesMaporganitation2:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Organitation/$(organitation_name_2)
+    po:
+      - [a, nr:Organitation~iri]
+      - [nr:name, $(organitation_name_2)]
+      - [nr:locatedAt, $(location_organitation_2)]
+      - [nr:hasWebsite, $(organitation_website_2)]
+      - [owl:sameAs, $(same_as_organitation_2_WD)~iri]
+      - [owl:sameAs, $(same_as_organitation_2_OA)~iri]
+
+  TriplesMaporganitation3:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Organitation/$(organitation_name_3)
+    po:
+      - [a, nr:Organitation~iri]
+      - [nr:name, $(organitation_name_3)]
+      - [nr:locatedAt, $(location_organitation_3)]
+      - [nr:hasWebsite, $(organitation_website_3)]
+      - [owl:sameAs, $(same_as_organitation_3_WD)~iri]
+      - [owl:sameAs, $(same_as_organitation_3_OA)~iri]
+
+  TriplesMaporganitation4:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Organitation/$(organitation_name_4)
+    po:
+      - [a, nr:Organitation~iri]
+      - [nr:name, $(organitation_name_4)]
+      - [nr:locatedAt, $(location_organitation_4)]
+      - [nr:hasWebsite, $(organitation_website_4)]
+      - [owl:sameAs, $(same_as_organitation_4_WD)~iri]
+      - [owl:sameAs, $(same_as_organitation_4_OA)~iri]
+
+  TriplesMaporganitation5:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Organitation/$(organitation_name_5)
+    po:
+      - [a, nr:Organitation~iri]
+      - [nr:name, $(organitation_name_5)]
+      - [nr:locatedAt, $(location_organitation_5)]
+      - [nr:hasWebsite, $(organitation_website_5)]
+      - [owl:sameAs, $(same_as_organitation_5_WD)~iri]
+      - [owl:sameAs, $(same_as_organitation_5_OA)~iri]
+
+  TriplesMaporganitation6:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Organitation/$(organitation_name_6)
+    po:
+      - [a, nr:Organitation~iri]
+      - [nr:name, $(organitation_name_6)]
+      - [nr:locatedAt, $(location_organitation_6)]
+      - [nr:hasWebsite, $(organitation_website_6)]
+      - [owl:sameAs, $(same_as_organitation_6_WD)~iri]
+      - [owl:sameAs, $(same_as_organitation_6_OA)~iri]
+
+  TriplesMapPerson:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Person/$(author_1)
+    po:
+      - [a, nr:Person~iri]
+      - [nr:nombre, $(author_1)]
+      - [nr:educatedAt, $(educated_at_author_1)]
+      - [nr:ocupation, $(ocupation_author_1)]
+      - [nr:hasOrcid, $(author_1_ORCID)~iri]
+      - [nr:belongsToOrganization, $(works_for_author_1)~iri]
+      - [owl:sameAs, $(same_as_author_1_WD)~iri]
+      - [owl:sameAs, $(same_as_author_1_OA)~iri]
+
+
+  TriplesMapPerson2:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Person/$(author_2)
+    po:
+      - [a, nr:Person~iri]
+      - [nr:nombre, $(author_2)]
+      - [nr:educatedAt, $(educated_at_author_2)]
+      - [nr:ocupation, $(ocupation_author_2)]
+      - [nr:hasOrcid, $(author_2_ORCID)~iri]
+      - [nr:belongsToOrganization, $(works_for_author_2)~iri]
+      - [owl:sameAs, $(same_as_author_2_WD)~iri]
+      - [owl:sameAs, $(same_as_author_2_OA)~iri]
+
+  TriplesMapPerson3:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Person/$(author_3)
+    po:
+      - [a, nr:Person~iri]
+      - [nr:nombre, $(author_3)]
+      - [nr:educatedAt, $(educated_at_author_3)]
+      - [nr:ocupation, $(ocupation_author_3)]
+      - [nr:hasOrcid, $(author_3_ORCID)~iri]
+      - [nr:belongsToOrganization, $(works_for_author_3)~iri]
+      - [owl:sameAs, $(same_as_author_3_WD)~iri]
+      - [owl:sameAs, $(same_as_author_3_OA)~iri]
+
+  TriplesMapPerson4:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Person/$(author_4)
+    po:
+      - [a, nr:Person~iri]
+      - [nr:nombre, $(author_4)]
+      - [nr:educatedAt, $(educated_at_author_4)]
+      - [nr:ocupation, $(ocupation_author_4)]
+      - [nr:hasOrcid, $(author_4_ORCID)~iri]
+      - [nr:belongsToOrganization, $(works_for_author_4)~iri]
+      - [owl:sameAs, $(same_as_author_4_WD)~iri]
+      - [owl:sameAs, $(same_as_author_4_OA)~iri]
+
+
+  TriplesMapPerson5:
+    sources:
+      - [ data-with-links.csv~csv]
+    s: http://group3.papers.es/resource/Person/$(author_5)
+    po:
+      - [a, nr:Person~iri]
+      - [nr:nombre, $(author_5)]
+      - [nr:educatedAt, $(educated_at_author_5)]
+      - [nr:ocupation, $(ocupation_author_5)]
+      - [nr:hasOrcid, $(author_5_ORCID)~iri]
+      - [nr:belongsToOrganization, $(works_for_author_5)~iri]
+      - [owl:sameAs, $(same_as_author_5_WD)~iri]
+      - [owl:sameAs, $(same_as_author_5_OA)~iri]
+      
