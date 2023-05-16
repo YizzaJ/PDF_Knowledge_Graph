@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>search</title>
+        <meta charset="utf-8">
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <link rel="stylesheet" type="text/css" href="../static/style.css">        
+        <link rel="stylesheet" 
+              href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+              integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+              crossorigin="anonymous">        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">        
+        <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">        
+        <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+        <script type="text/javascript" src="../static/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+            var first = 0
+            $.getJSON('../static/data-with-links.json',{format: "json"},function(data){
+             $.each(data,function(index,value){
+                 console.log(value);
+                        $('#opAuthor',function(){
+                            var ulauthor = document.getElementById("authorSelect");
+                            var ulpaper = document.getElementById("paperSelect");
+                            var ulorganization = document.getElementById("organizationSelect");
+                            var ultopic = document.getElementById("topicSelect");
+                            var li1 = document.createElement("option");
+                            var li2 = document.createElement("option");
+                            var li3 = document.createElement("option");
+                            var li4 = document.createElement("option");
+                            var li5 = document.createElement("option");
+                            var li6 = document.createElement("option");
+                            if (value.author_1.length > 0){
+                                li1.setAttribute("value",value.author_1);
+                                li1.appendChild(document.createTextNode(value.author_1));
+                                ulauthor.appendChild(li1);
+                            }
+                            if (value.author_2.length > 0){
+                                li2.setAttribute("value",value.author_2);
+                                li2.appendChild(document.createTextNode(value.author_2));
+                                ulauthor.appendChild(li2);
+                            }
+                            if (value.author_3.length > 0){
+                                li3.setAttribute("value",value.author_3);
+                                li3.appendChild(document.createTextNode(value.author_3));
+                                ulauthor.appendChild(li3);
+                            }
+                            if (value.author_4.length > 0){
+                                li4.setAttribute("value",value.author_4);
+                                li4.appendChild(document.createTextNode(value.author_4));
+                                ulauthor.appendChild(li4);
+                            }
+                            if (value.author_5.length > 0){
+                                li5.setAttribute("value",value.author_5);
+                                li5.appendChild(document.createTextNode(value.author_5));
+                                ulauthor.appendChild(li5);
+                            }
+                            //ul de Organization
+                            li1 = document.createElement("option");
+                            li2 = document.createElement("option");
+                            li3 = document.createElement("option");
+                            li4 = document.createElement("option");
+                            li5 = document.createElement("option");
+                            li6 = document.createElement("option");
+                            if (value.organitation_name_1.length > 0){
+                                li1.setAttribute("value",value.organitation_name_1);
+                                li1.appendChild(document.createTextNode(value.organitation_name_1));
+                                ulorganization.appendChild(li1);
+                            }
+                            if (value.organitation_name_2.length > 0){
+                                li2.setAttribute("value",value.organitation_name_2);
+                                li2.appendChild(document.createTextNode(value.organitation_name_2));
+                                ulorganization.appendChild(li2);
+                            }
+                            if (value.organitation_name_3.length > 0){
+                                li3.setAttribute("value",value.organitation_name_3);
+                                li3.appendChild(document.createTextNode(value.organitation_name_3));
+                                ulorganization.appendChild(li3);
+                            }
+                            if (value.organitation_name_4.length > 0){
+                                li4.setAttribute("value",value.organitation_name_4);
+                                li4.appendChild(document.createTextNode(value.organitation_name_4));
+                                ulorganization.appendChild(li4);
+                            }
+                            if (value.organitation_name_5.length > 0){
+                                li5.setAttribute("value",value.organitation_name_5);
+                                li5.appendChild(document.createTextNode(value.organitation_name_5));
+                                ulorganization.appendChild(li5);
+                            }
+                            if (value.organitation_name_6.length > 0){
+                                li6.setAttribute("value",value.organitation_name_6);
+                                li6.appendChild(document.createTextNode(value.organitation_name_6));
+                                ulorganization.appendChild(li6);
+                            }
+                            //ulPaper
+                            li1 = document.createElement("option");
+                            li1.setAttribute("value",value.Title);
+                            li1.appendChild(document.createTextNode(value.Title));
+                            ulpaper.appendChild(li1);
+                            //ultopic
+                            if (first == 0){
+                                firs = 1
+
+                                var topics = []
+                                for (var i = 0; i <= 10 ; i ++){
+                                    if (value["topic_words_" + i].length > 0){
+                                        li1 = document.createElement("option");
+                                        li1.setAttribute("value",i);
+                                        li1.appendChild(document.createTextNode(i));
+                                        ultopic.appendChild(li1);
+                                    }
+                                }
+
+                                
+                            }
+                                
+                        })
+                    })
+            })
+        </script>
+        <script type="text/javascript">
+            function sortUl(){
+                const mySelect = document.getElementById("paperSelect");
+                const options = Array.from(mySelect.options);
+                console.log(options);
+                options.sort(function(a, b) {
+                return a.text.localeCompare(b.text);
+                });
+
+                for (let option of options) {
+                mySelect.appendChild(option);
+                }
+            };
+        </script>
+    </head>
+     
+        <body style="height:100%">
+            <div style="height: 100%">
+                <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark" >
+                    <a class="navbar-brand" href="/"><img id="imgRedonda" src="{{ url_for('static', filename = 'madrid.png')}}"> </a>
+                    <h4 class="nav-item text-white">Madrid Turist Sites</h4>
+                </nav>
+            <div style="background-color: lightblue;">
+                <header>
+                    <br>                 
+               <h1 class="text-center p-5 text-success" ><a href="/" class="text-decoration-none text-dark"><span class="badge badge- mr-3"><img id="imgRedonda" src="{{ url_for('static', filename = 'madrid.png')}}"></span>Madrid Turist Sites</a></h1> 
+            </header> 
+            
+                <div class="p-4">
+                    <h5>¿Por qué Madrid?</h5>
+                    <p> Madrid es la capital de España y su amplia oferta turística la convierten en una de las ciudades más visitadas de Europa. 
+                        Además debido a la extraordinaria belleza de sus calles y plazas, 
+                        es considerada una de las ciudades más bonitas de España. En este artículo te doy hasta 20 razones para visitar Madrid.</p>                    
+                    <h5>¿Qué puedo encontrar en Madrid?</h5>
+                    <p> Puedes encontrar desde parques para pasar las tardes hasta maravillosos y espaciosos museos, llenos del arte que siempre a caracterizado a esta ciudad.</p>
+                </div>         
+                <center>    
+                    <p> Elige la calle para visualizar los monumentos cercanos.</p>                                    
+                    <form class=" col-md-4 p-2" style="background-color: lightblue;" id="formulario" action="/busqueda"> 
+                        <div id="opAuthor"  class="form-group">
+                            <select onload='sortUl()' id="paperSelect" name="paperSelect"  class="form-control">
+                                <option value="">Search by Paper:</option>
+                            </select>
+                            <select id="authorSelect" name="authorSelect"  class="form-control">
+                                <option value="">Search by Author:</option>
+                            </select>
+                            <select id="organizationSelect" name="organizationSelect" class="form-control">
+                                <option value="">Search by Organization:</option>
+                            </select>
+                            <select id="topicSelect" name="topicSelect"  class="form-control">
+                                <option value="">Search by Topic:</option>
+                            </select>
+                        
+                              
+                        </div> 
+                        
+                          <button class="btn btn-lg btn-primary" id="busquedaClick" type="submit">Busqueda</button>
+                        </div>                                          
+                            
+                    </form>
+                     
+                    <br>
+                    
+             </center>
+                
+             <div>
+                <nav class="navbar navbar-expand navbar-dark bg-dark text-center p-3">
+                            <div class="col mt-2 p-3">
+    <!--
+                                <div class="col"><p class="text-white bg-dark" style="color: gray"><em>Contanto: </em><a class="text-white bg-dark" href="home.html"><br/>wwww.informacion@resercar.com</a></p></div>
+    -->
+                            </div>
+                            <div class="col mt-2">
+    <!--
+                                <div class="col"><p class="text-white bg-dark" style="color: gray"><em>ReserCar  </em><a class="text-white bg-dark" href="informacion.html"><br/>Pagina de ayuda</a></p></div>
+    -->
+                         </div>
+                    </nav>
+             </div>    
+            </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        </div>            
+    </body>
+</html>
