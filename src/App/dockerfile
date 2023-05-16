@@ -12,6 +12,8 @@ COPY templates/ ./templates/
 
 COPY CSV/ .
 
+COPY CSV/ ./CSV/
+
 COPY morph/ .
 
 COPY ../requirements.txt .
