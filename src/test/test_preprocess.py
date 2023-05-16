@@ -16,11 +16,11 @@ inside the samples folder. This are:
 
 
 def get_xml(file):
-    with open("./samples/" + file, 'r', encoding="utf-8") as tei:
+    with open("./src/test/samples/" + file, 'r', encoding="utf-8") as tei:
         return BeautifulSoup(tei, 'xml')
     
 def get_txt(file):
-    with open("./samples/" + file, 'r', encoding="utf-8") as txt:
+    with open("./src/test/samples/" + file, 'r', encoding="utf-8") as txt:
         return txt.read()
 
 # Test that should find the title in the xml.
