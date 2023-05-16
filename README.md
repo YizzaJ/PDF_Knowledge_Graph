@@ -1,6 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/pdf-knowledge-graph/badge/?version=latest)](https://pdf-knowledge-graph.readthedocs.io/en/latest/?badge=latest)
-# PDF_Knowledge_Graph
 
+# PDF_Knowledge_Graph
 
 ## Description
 
@@ -26,7 +26,6 @@ This process gathers all the information provided by the first to parts to gener
 
 With this, the user is going to be able to do queries to the knowledge graph. The information is represented with a table, so the user can get the complete information regarding their query.
 
-
 ## Requirements
 
 To run this program you will need:
@@ -34,17 +33,22 @@ To run this program you will need:
 * System with Windows or Linux operating systems.
 * Install [Docker](https://docs.docker.com/engine/install/).
 
-
 ## Installation Instructions
 
 1. Clone this git project:
 
    `git clone https://github.com/YizzaJ/PDF_Knowledge_Graph.git`
 
-
 ## Execution Instructions
 
 1. Run a docker server.
+2. . Enter the *src/* directory since the rest of the instructions will be executed from there:
+   `cd src`
+3. Insert all the *.pdf* files inside the **PDFs** directory.
+4. If you are using Windows run the `preprocessing.bat` file. If you are using Linux run `preprocessing.sh`.
+   This will create two files inside the  output directory, `extracted.json` and `data-with-links.json`.
+5. The data-with-links.json file should be used as one of the input files used in
+6. 
 
 ## Contact
 
