@@ -25,9 +25,9 @@ def get_title_OA(paper):
     return response.json()   
 
 def get_title(soup):
-    title = soup.titleStmt.title
+    title = soup.titleStmt
     if title is not None:
-        return title.text
+        return title.title.text
     else:
         return ""
 def wikidata_author(author):
