@@ -1,0 +1,1178 @@
+[
+    {
+        "entity_type": "ORG",
+        "entity_name": " BELSPO",
+        "title": "A five-stage treatment train for water recovery from urine and shower water for long-term human Space missions",
+        "paper_id": 0
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " MELiSSA",
+        "title": "A five-stage treatment train for water recovery from urine and shower water for long-term human Space missions",
+        "paper_id": 0
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " China Postdoctoral Science Foundation",
+        "title": "Multiobjective stochastic programming with recourses for real-time flood water conservation of a multireservoir system under uncertain forecasts",
+        "paper_id": 1
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "National Natural Science Foundation of China",
+        "title": "Construction risk knowledge management in BIM using ontology and semantic web technology",
+        "paper_id": 2
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "Fundamental Research Funds for the Central Universities",
+        "title": "Construction risk knowledge management in BIM using ontology and semantic web technology",
+        "paper_id": 2
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " European Commission",
+        "title": "Contents lists available at ScienceDirect",
+        "paper_id": 3
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " EPSRC",
+        "title": "Contents lists available at ScienceDirect",
+        "paper_id": 3
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " BRE",
+        "title": "Contents lists available at ScienceDirect",
+        "paper_id": 3
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Cardiff University",
+        "title": "Contents lists available at ScienceDirect",
+        "paper_id": 3
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Office for Philosophy and Social Science of China",
+        "title": "Corporate culture and firm resilience in China: Evidence from the Sino-US trade war",
+        "paper_id": 4
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Ningbo Science and Technology Bureau for S&T Innovation",
+        "title": "Corporate culture and firm resilience in China: Evidence from the Sino-US trade war",
+        "paper_id": 4
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Ningbo Science and Technology Bureau for",
+        "title": "Corporate culture and firm resilience in China: Evidence from the Sino-US trade war",
+        "paper_id": 4
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Tracy Wang",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Chris Chapman",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Giovanna Michelon",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Mark Clatworthy",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Emma Pugh",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Adriana Korczak",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Sonny Biswas",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Amama Shaukat",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Marion Van Den Bosch",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " University of Bristol Business School",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Bangor Business School",
+        "title": "Corporate socio-political activism and retail investors: Evidence from the Black Lives Matter campaign",
+        "paper_id": 5
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Dutch Research Council",
+        "title": "It is a matter of perspective: Attentional focus rather than dietary restraint drives brain responses to food stimuli",
+        "paper_id": 6
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "NWO",
+        "title": "It is a matter of perspective: Attentional focus rather than dietary restraint drives brain responses to food stimuli",
+        "paper_id": 6
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Anne Roefs",
+        "title": "It is a matter of perspective: Attentional focus rather than dietary restraint drives brain responses to food stimuli",
+        "paper_id": 6
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Open Access Publication Fund",
+        "title": "The effects of visual perceptual load on detection performance and event-related potentials to auditory stimuli",
+        "paper_id": 7
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " University of M\u00fcnster",
+        "title": "The effects of visual perceptual load on detection performance and event-related potentials to auditory stimuli",
+        "paper_id": 7
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Karl Zilles",
+        "title": "Relationships between neurotransmitter receptor densities and expression levels of their corresponding genes in the human hippocampus",
+        "paper_id": 8
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ". Jiangyang Zhang",
+        "title": "Towards reliable reconstruction of the mouse brain corticothalamic connectivity using diffusion MRI",
+        "paper_id": 9
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Daniel Turnbull",
+        "title": "Towards reliable reconstruction of the mouse brain corticothalamic connectivity using diffusion MRI",
+        "paper_id": 9
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Youssef Z. Wadghiri",
+        "title": "Towards reliable reconstruction of the mouse brain corticothalamic connectivity using diffusion MRI",
+        "paper_id": 9
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Luz Bavassi",
+        "title": "Contextual incongruency triggers memory reinstatement and the disruption of neural stability",
+        "paper_id": 10
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Ministerio de Ciencia, Innovaci\u00f3n y Universidades",
+        "title": "Contextual incongruency triggers memory reinstatement and the disruption of neural stability",
+        "paper_id": 10
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Agencia Estatal de Investigaci\u00f3n",
+        "title": "Contextual incongruency triggers memory reinstatement and the disruption of neural stability",
+        "paper_id": 10
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "AEI",
+        "title": "Contextual incongruency triggers memory reinstatement and the disruption of neural stability",
+        "paper_id": 10
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " European Regional Development Fund. ERDF",
+        "title": "Contextual incongruency triggers memory reinstatement and the disruption of neural stability",
+        "paper_id": 10
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " CERCA Programme/Generalitat de Catalunya",
+        "title": "Contextual incongruency triggers memory reinstatement and the disruption of neural stability",
+        "paper_id": 10
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Rita Gil",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Cristina Chavarr\u00edas",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " European Research Council",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "ERC",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Champalimaud Foundation",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " CONGENTO",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " European Regional Development Fund",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "ERDF",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia",
+        "title": "MP-PCA denoising of fMRI time-series data can lead to artificial activation \"spreading \"",
+        "paper_id": 11
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Library of Medicine",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institutes of Health",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institute of Allergy and Infectious Diseases",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institutes of Health",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institutes of Health",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Cancer Institute",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institutes of Health",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Cancer Prevention Research Institute of Texas",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "CPRIT",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Center for Advancing Translational Sciences",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Nelson & Shenkman",
+        "title": "Journal of Biomedical Informatics",
+        "paper_id": 12
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Japan Society for the Promotion of Science",
+        "title": "An animal crisis caused by pollution, deforestation, and warming in the late 21st century and exacerbation by nuclear war",
+        "paper_id": 13
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "KAKENHI",
+        "title": "An animal crisis caused by pollution, deforestation, and warming in the late 21st century and exacerbation by nuclear war",
+        "paper_id": 13
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Kyoko Ishii",
+        "title": "An animal crisis caused by pollution, deforestation, and warming in the late 21st century and exacerbation by nuclear war",
+        "paper_id": 13
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Shusuke Okawara",
+        "title": "An animal crisis caused by pollution, deforestation, and warming in the late 21st century and exacerbation by nuclear war",
+        "paper_id": 13
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Hiroshi Kaiho",
+        "title": "An animal crisis caused by pollution, deforestation, and warming in the late 21st century and exacerbation by nuclear war",
+        "paper_id": 13
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " ONR",
+        "title": "You Only Look Once: Unified, Real-Time Object Detection",
+        "paper_id": 14
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Departmento de Oceanograf\u00eda",
+        "title": "ENVIRONMENTAL CONDITIONS OF THE WATERS OF THE MANZANARES RIVER",
+        "paper_id": 15
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Instituto Oceanogr\u00e1fico de Venezuela",
+        "title": "ENVIRONMENTAL CONDITIONS OF THE WATERS OF THE MANZANARES RIVER",
+        "paper_id": 15
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " LOREN LOCKWOOD",
+        "title": "ENVIRONMENTAL CONDITIONS OF THE WATERS OF THE MANZANARES RIVER",
+        "paper_id": 15
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Consejo de Investigaci\u00f3n de la Universidad de Oriente",
+        "title": "ENVIRONMENTAL CONDITIONS OF THE WATERS OF THE MANZANARES RIVER",
+        "paper_id": 15
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Nal Kalchbrenner",
+        "title": "Attention Is All You Need",
+        "paper_id": 16
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Stephan Gouws",
+        "title": "Attention Is All You Need",
+        "paper_id": 16
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Alan Akbik",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Andrea Briceno",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Humberto Corona",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Antonino Freno",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Francis Gonzalez",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Romain Guigoures",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Sebastian Heinz",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Bowen Li",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Max Moeller",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Roberto Roverso",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Rezar Shirvany",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Julie Sanchez",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Hao Su",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Lina Weichbrodt",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Nana Yamazaki",
+        "title": "Two-Stage Session-based Recommendations with Candidate Rank Embeddings",
+        "paper_id": 17
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " SKW",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " University of Birmingham",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " EPSRC",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Johnson Matthey",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Colin Ranson",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Rob Fletcher",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Deborah Dodds",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "JM",
+        "title": "Understanding the generation of methanol synthesis and water gas shift activity over copper-based catalysts -A spatially resolved experimental kinetic study using steady and non-steady state operation under CO/CO 2 /H 2 feeds",
+        "paper_id": 18
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Spanish National Agrarian Accounting Network",
+        "title": "Economic risk assessment of the quality labels and productive efficiency strategies in Spanish extensive sheep farms",
+        "paper_id": 20
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "RECAN",
+        "title": "Economic risk assessment of the quality labels and productive efficiency strategies in Spanish extensive sheep farms",
+        "paper_id": 20
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Ministry of Agriculture, Fisheries and Food",
+        "title": "Economic risk assessment of the quality labels and productive efficiency strategies in Spanish extensive sheep farms",
+        "paper_id": 20
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Li",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Gl\u00f6ckner",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": "  Smolka",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Deutsche Forschungsgemeinschaft",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "German Research Foundation",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " DFG",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Shu-Chen Li",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " German Research Foundation",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Michael Smolka",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " DFG",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " NWS",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Independent Max Planck Research Group",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Max Planck Society",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " European Union",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " NWS",
+        "title": "Dopamine differentially modulates medial temporal lobe activity and behavior during spatial navigation in young and older adults",
+        "paper_id": 21
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "Geran Penyelidikan Industri",
+        "title": "DIVERSITY OF TIME ZONES AT BURJ KHALIFA IN PERFORMING PRAYERS AND FASTING IN SKYSCRAPERS",
+        "paper_id": 22
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Dana Insentif Penerbitan Fakulti Pengajian Islam 2023",
+        "title": "DIVERSITY OF TIME ZONES AT BURJ KHALIFA IN PERFORMING PRAYERS AND FASTING IN SKYSCRAPERS",
+        "paper_id": 22
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Universiti Kebangsaan Malaysia",
+        "title": "DIVERSITY OF TIME ZONES AT BURJ KHALIFA IN PERFORMING PRAYERS AND FASTING IN SKYSCRAPERS",
+        "paper_id": 22
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Jabatan Mufti Negeri Sarawak",
+        "title": "DIVERSITY OF TIME ZONES AT BURJ KHALIFA IN PERFORMING PRAYERS AND FASTING IN SKYSCRAPERS",
+        "paper_id": 22
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " NIH",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": "T. B. F",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": "A. J. G",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " S. K.",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Japan Society for the Promotion of Science",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institutes of Health",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Anne Madeo",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Carmen Brewer",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ",",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Rob Morell",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Dennis Drayna,",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Anne Madeo",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "A novel mutation at the DFNA36 hearing loss locus reveals a critical function and potential genotype-phenotype correlation for amino acid-572 of TMC1",
+        "paper_id": 23
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Science for Equity, Empowerment and Development Division",
+        "title": "Efficient hearing aid algorithm using DCT with uniformly re-sampled and recursively modified audiogram values",
+        "paper_id": 24
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Department of Science and Technology",
+        "title": "Efficient hearing aid algorithm using DCT with uniformly re-sampled and recursively modified audiogram values",
+        "paper_id": 24
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Government of India",
+        "title": "Efficient hearing aid algorithm using DCT with uniformly re-sampled and recursively modified audiogram values",
+        "paper_id": 24
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Indonesian J Elec Eng & Comp Sci",
+        "title": "Efficient hearing aid algorithm using DCT with uniformly re-sampled and recursively modified audiogram values",
+        "paper_id": 24
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Inna Belyantseva",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Dennis Drayna",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Karen Friderici",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Andrew Griffith",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Shin-ichiro Kitajiri,",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Julie Schultz",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Ibrahim Keser",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " N. Murali",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Ganesh Prasad Das",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Shivaram Shastri,",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Vijaya Ramachandran",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Akdeniz University Research Foundation",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institute on Deafness and Other Communication Disorders",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "NIDCD",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institutes of Health",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "NIH",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " T.B.F",
+        "title": "Mutational Spectrum of MYO15A: The Large N-Terminal Extension of Myosin XVA Is Required for Hearing",
+        "paper_id": 25
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Penelope Friedman",
+        "title": "Nonsyndromic Hearing Loss DFNA10 and a Novel Mutation of EYA4: Evidence for Correlation of Normal Cardiac Phenotype With Truncating Mutations of the Eya Domain",
+        "paper_id": 26
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Thomas Friedman",
+        "title": "Nonsyndromic Hearing Loss DFNA10 and a Novel Mutation of EYA4: Evidence for Correlation of Normal Cardiac Phenotype With Truncating Mutations of the Eya Domain",
+        "paper_id": 26
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Robert Morell",
+        "title": "Nonsyndromic Hearing Loss DFNA10 and a Novel Mutation of EYA4: Evidence for Correlation of Normal Cardiac Phenotype With Truncating Mutations of the Eya Domain",
+        "paper_id": 26
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " NIH",
+        "title": "Nonsyndromic Hearing Loss DFNA10 and a Novel Mutation of EYA4: Evidence for Correlation of Normal Cardiac Phenotype With Truncating Mutations of the Eya Domain",
+        "paper_id": 26
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " R. Morell",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " D. Deshmukh",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " B. Ploplis",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " A. J. Griffith",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " T. Ben-Yosef,",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institute of Child Health and Human Development",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " L.P",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Cancer Institute",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " J.R.L",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " J.R",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": "L",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " J",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": "R.L",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " National Institute on Deafness and Other Communication Disorders",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " E.W.",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " T.B.F.",
+        "title": "Novel mutations of MYO15A associated with profound deafness in consanguineous families and moderately severe hearing loss in a patient with Smith-Magenis syndrome",
+        "paper_id": 27
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Chinese Academy of Medical Sciences Innovation",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " of National Science and Technology",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Chen Wang",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "Peking Union Medical College",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Peter W Horby",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "University of Oxford",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " Frederick G Hayden",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": "University of Virginia School of Medicine",
+        "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+        "paper_id": 28
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Ministry of Research",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " European Union",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " C.D.",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "ORG",
+        "entity_name": " Bundeswehr Medical Service",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " P. Mackeldanz",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " E. M\u00f6ncke-Buchner",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " A. Richter",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " M. Schmidt",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": " J. Beheim-Schwarzbach",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    },
+    {
+        "entity_type": "PER",
+        "entity_name": ".",
+        "title": "Virological assessment of hospitalized patients with COVID-2019",
+        "paper_id": 29
+    }
+]

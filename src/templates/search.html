@@ -142,24 +142,38 @@
             <div style="height: 100%">
                 <nav class="navbar navbar-expand-lg navbar-dark text right bg-dark" >
                     <a class="navbar-brand" href="/"><img id="imgRedonda" src="{{ url_for('static', filename = 'madrid.png')}}"> </a>
-                    <h4 class="nav-item text-white">Madrid Turist Sites</h4>
+                    <h4 class="nav-item text-white">Query Generator</h4>
                 </nav>
             <div style="background-color: lightblue;">
                 <header>
                     <br>                 
-               <h1 class="text-center p-5 text-success" ><a href="/" class="text-decoration-none text-dark"><span class="badge badge- mr-3"><img id="imgRedonda" src="{{ url_for('static', filename = 'madrid.png')}}"></span>Madrid Turist Sites</a></h1> 
+               <h1 class="text-center p-5 text-success" ><a href="/" class="text-decoration-none text-dark"><span class="badge badge- mr-3"><img id="imgRedonda" src="{{ url_for('static', filename = 'logo.jpg')}}"></span>Query Generator</a></h1> 
             </header> 
             
-                <div class="p-4">
-                    <h5>¿Por qué Madrid?</h5>
-                    <p> Madrid es la capital de España y su amplia oferta turística la convierten en una de las ciudades más visitadas de Europa. 
-                        Además debido a la extraordinaria belleza de sus calles y plazas, 
-                        es considerada una de las ciudades más bonitas de España. En este artículo te doy hasta 20 razones para visitar Madrid.</p>                    
-                    <h5>¿Qué puedo encontrar en Madrid?</h5>
-                    <p> Puedes encontrar desde parques para pasar las tardes hasta maravillosos y espaciosos museos, llenos del arte que siempre a caracterizado a esta ciudad.</p>
-                </div>         
-                <center>    
-                    <p> Elige la calle para visualizar los monumentos cercanos.</p>                                    
+            <div class="p-4">
+                <h5>You are going to be able to find:</h5>
+                <li>A lot more information from each of the papers that were processed.</li>
+                <li>Get information about the organizations acknowledged in those papers.</li>
+                <li>Get more information about the authors of the papers.</li>
+                <h5>How does it work?</h5>
+                <li>First, select from any menu the filter you want to search for.</li>
+                <li>Then launch the query either for an Author, an Organization or a Paper.</li>
+                <li>Note: for authors and organizations you only can search by name, for Papers you can combine the filters of Name, Author, Organization or Topic.</li> 
+            </div>
+            <center>
+                <p> Select the filters you want.</p>      
+                    <form class=" col-md-4 p-2" style="background-color: lightblue;" id="formulario" action="/results_authors">
+                        <select id="authorSelect" name="authorSelect" class="form-control">
+                            <option value="">Select Author:</option>
+                        </select>
+                        <button class="btn btn-lg btn-primary" id="busquedaClickAuthors" type="submit">Search Author</button>                                  
+                    </form>
+                    <form class=" col-md-4 p-2" style="background-color: lightblue;" id="formulario" action="/results_orgs">
+                        <select id="organizationSelect" name="organizationSelect" class="form-control">
+                            <option value="">Select Organization:</option>
+                        </select>
+                        <button class="btn btn-lg btn-primary" id="busquedaClickOrgs" type="submit">Search Organization</button>                                  
+                    </form>
                     <form class=" col-md-4 p-2" style="background-color: lightblue;" id="formulario" action="/busqueda"> 
                         <div id="opAuthor"  class="form-group">
                             <select onload='sortUl()' id="paperSelect" name="paperSelect"  class="form-control">
@@ -178,7 +192,7 @@
                               
                         </div> 
                         
-                          <button class="btn btn-lg btn-primary" id="busquedaClick" type="submit">Busqueda</button>
+                          <button class="btn btn-lg btn-primary" id="busquedaClick" type="submit">Search Paper</button>
                         </div>                                          
                             
                     </form>

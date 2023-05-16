@@ -1,0 +1,17 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+RUN  mkdir Script && mkdir CSV && mkdir output
+
+COPY ../requirements.txt .
+
+COPY Script/ ./Script/
+
+RUN pip install --upgrade pip
+
+RUN pip install -r requirements.txt
+
+CMD ["python","Script/generate_csv.py"]
+
+

@@ -72,10 +72,58 @@ with open('./static/data-with-links.json', 'w', encoding='utf-8') as jsonfile:
 def main():
     return render_template("search.html")
 
+@app.route("/results_authors", methods=['POST','GET'])
+def results_authors():
+    try:
+        _requestAutor = request.args.get('authorSelect')
+        _autor = str(_requestAutor)
+        _jsonList= {}
+        i = 1
+        # SPARQL query
+        query = "select distinct ?Object ?p" \
+                " where{ <http://group3.papers.es/resource/Person/"+_autor.strip().replace(' ','%20')+"> ?p ?Object .}"
+        print(query)
+        q3 = prepareQuery(query)
+        for r in g.query(q3):
+            if str(r[1]) != "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
+                if str(r[1]) == "http://www.w3.org/2002/07/owl#sameAs":
+                   _jsonList['link_'+str(i)] = str(r[0])
+                   i += 1
+                _jsonList[str(r[1]).replace('http://group3.papers.es/ontology/','')] = str(r[0])
+        # END SPARQL query
+        with open("./static/query_authors.json", "w", encoding='utf-8') as file:
+            json.dump(_jsonList, file, indent = 4)
+        return render_template("results_authors.html")
+    except Exception as e:
+        return json.dumps({'error': e})
 
+@app.route("/results_orgs", methods=['POST','GET'])
+def results_orgs():
+    try:
+        _requestOrganization = request.args.get('organizationSelect')
+        _org = str(_requestOrganization)
+        _jsonList= {}
+        i = 1
+        # SPARQL query
+        query = "select distinct ?Object ?p" \
+                " where{ <http://group3.papers.es/resource/Organitation/"+_org.strip().replace(' ','%20')+"> ?p ?Object .}"
+        print(query)
+        q3 = prepareQuery(query)
+        for r in g.query(q3):
+            if str(r[1]) != "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
+                if str(r[1]) == "http://www.w3.org/2002/07/owl#sameAs":
+                   _jsonList['link_'+str(i)] = str(r[0])
+                   i += 1
+                _jsonList[str(r[1]).replace('http://group3.papers.es/ontology/','')] = str(r[0])
+        # END SPARQL query
+        with open("./static/query_orgs.json", "w", encoding='utf-8') as file:
+            json.dump(_jsonList, file, indent = 4)
+        return render_template("results_org.html")
+    except Exception as e:
+        return json.dumps({'error': e})
 @app.route("/results", methods=['POST', 'GET'])
 def results():
-    return render_template("results.html")
+        return render_template("results.html")
 
 @app.route("/busqueda", methods=['POST', 'GET'])
 def busqueda():
@@ -118,7 +166,7 @@ def busqueda():
                 per = 1
                 for r3 in g.query(q5, initBindings={"m": r[0], "p": r2[0]}):
                     propiedad = str(r2[0])
-                    print(propiedad)
+                    #print(propiedad)
                     objeto = str(r3[0])
                     #print(objeto)
                     if propiedad == "http://group3.papers.es/ontology/hasTitle":
@@ -173,7 +221,7 @@ def busqueda():
             json.dump(_jsonList, file, indent = 4)
         if(len(_jsonList)==0):
             return render_template("error.html",error="El recurso al que intentas acceder no esta disponible")
-        return render_template("results.html",street="Lo que sea",enlace="https://www.wikidata.org/entity/Q2807", solo = True)
+        return render_template("results.html")
     except Exception as e:
         return json.dumps({'error': e})
 
