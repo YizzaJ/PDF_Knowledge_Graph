@@ -3,7 +3,7 @@
 
 ## Description
 
-This project refers to a PDF analyzer that by extracting their Abstracs and Acknowledgements, constructs a knowledge graph. This allows the user to have the files categorized regarding common themes and alsogenerate queries against them, being able to extract information such as the authors, organizations acknowledged, and the type of paper they represent. Additionally, the information extracted from the PDFs will be enriched using online sources such as [Wikidata ](https://www.wikidata.org/wiki/Wikidata:Main_Page)and the[ OpenAlex API](https://openalex.org/).
+This project refers to a PDF analyzer that by extracting their Abstracs and Acknowledgements, constructs a knowledge graph. This allows the user to have the files categorized regarding common themes and alsogenerate queries against them, being able to extract information such as the authors, organizations acknowledged, and the type of paper they represent. Additionally, the information extracted from the PDFs will be enriched using online sources such as [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) and the [OpenAlex API](https://openalex.org/).
 
 ### Parts of the project
 
@@ -11,7 +11,7 @@ This complex projects is divided into different parts regarding of the function 
 
 #### Preprocessing
 
-This part refers to the data extraction from the PDF files and also their processing. We are using [Grobid ](https://github.com/kermitt2/grobid)for the data extraction, and a python script to generate a *.json*  (*extracted.json*) file with the **Title, Abstract and Acknowledgements** parts from each of the files.
+This part refers to the data extraction from the PDF files and also their processing. We are using [Grobid](https://github.com/kermitt2/grobid) for the data extraction, and a python script to generate a *.json*  (*extracted.json*) file with the **Title, Abstract and Acknowledgements** parts from each of the files.
 
 #### Topic Modeling, Clustering and Name Entity Recognition
 
