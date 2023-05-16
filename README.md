@@ -1,3 +1,4 @@
+[![Documentation Status](https://readthedocs.org/projects/pdf-knowledge-graph/badge/?version=latest)](https://pdf-knowledge-graph.readthedocs.io/en/latest/?badge=latest)
 # PDF_Knowledge_Graph
 
 
