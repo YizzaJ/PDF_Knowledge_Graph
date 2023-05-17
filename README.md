@@ -18,6 +18,9 @@ This part refers to the data extraction from the PDF files and also their proces
 #### Topic Modeling, Clustering and Name Entity Recognition
 
 This part of the project uses the output of the last one to classify each file according a topic and a cluster. Additionally, it extracts entities present on the **acknowledgements** section to enrich the final knowledge graph.
+To tackle the task of clustering the files we are computing a distance matrix based on tf-idf vectors for the preprocessed paper abstracts. Given the distance matrix k-means or agglomerative clustering can be performed and evaluated with the silhouette score.  
+Moreover, we are using the LDA approach to compute topics as well based on the tf-idf vectors. The topic quality is evaluated using coherence.  
+In order to extract entities from the **acknowledgements** section of all papers we are using the [huggingface api](https://huggingface.co/Jean-Baptiste/roberta-large-ner-english?text=My+name+is+wolfgang+and+I+live+in+berlin) with a pretrained roberta ner model.
 
 #### Generating the CSV
 
@@ -49,7 +52,12 @@ To run this program you will need:
 4. If you are using Windows run the `preprocessing.bat` file. If you are using Linux run `preprocessing.sh`.
    This will create two files inside the  output directory, `extracted.json` and `data-with-links.json`.
 5. The data-with-links.json file should be used as one of the input files used in
-6. 
+
+Using AI to create additional information
+- The following steps are optional and only creating additional data to enrich the knowledge graph. If you don't want to use this option proceed to point **????**.
+6. Make sure that you have run the previous steps and there is an [extracted.json](data/extracted.json) file in the *data folder*
+7. To perform clustering and topic modelling run `python ai_tasks/ai_tasks.py`
+8. To perform NER run the [NER notebook](src/ai_tasks/NER.ipynb) manually
 
 ## Contact
 
