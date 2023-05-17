@@ -1,6 +1,3 @@
-[![DOI](https://zenodo.org/badge/637133691.svg)](https://zenodo.org/badge/latestdoi/637133691)
-[![Documentation Status](https://readthedocs.org/projects/pdf-knowledge-graph/badge/?version=latest)](https://pdf-knowledge-graph.readthedocs.io/en/latest/?badge=latest)
-
 # PDF_Knowledge_Graph
 
 ## Description
@@ -18,8 +15,8 @@ This part refers to the data extraction from the PDF files and also their proces
 #### Topic Modeling, Clustering and Name Entity Recognition
 
 This part of the project uses the output of the last one to classify each file according a topic and a cluster. Additionally, it extracts entities present on the **acknowledgements** section to enrich the final knowledge graph.
-To tackle the task of clustering the files we are computing a distance matrix based on tf-idf vectors for the preprocessed paper abstracts. Given the distance matrix k-means or agglomerative clustering can be performed and evaluated with the silhouette score.  
-Moreover, we are using the LDA approach to compute topics as well based on the tf-idf vectors. The topic quality is evaluated using coherence.  
+To tackle the task of clustering the files we are computing a distance matrix based on tf-idf vectors for the preprocessed paper abstracts. Given the distance matrix k-means or agglomerative clustering can be performed and evaluated with the silhouette score.
+Moreover, we are using the LDA approach to compute topics as well based on the tf-idf vectors. The topic quality is evaluated using coherence.
 In order to extract entities from the **acknowledgements** section of all papers we are using the [huggingface api](https://huggingface.co/Jean-Baptiste/roberta-large-ner-english?text=My+name+is+wolfgang+and+I+live+in+berlin) with a pretrained roberta ner model.
 
 #### Generating the CSV
@@ -51,14 +48,40 @@ To run this program you will need:
 3. Insert all the *.pdf* files inside the **PDFs** directory.
 4. If you are using Windows run the `preprocessing.bat` file. If you are using Linux run `preprocessing.sh`.
    This will create two files inside the  output directory, `extracted.json` and `data-with-links.json`.
-5. The data-with-links.json file should be used as one of the input files used in
+5. The data-with-links.json file should be used as one of the input files used in the CSV file generation step.
 
 Using AI to create additional information
-- The following steps are optional and only creating additional data to enrich the knowledge graph. If you don't want to use this option proceed to point **????**.
+
+- The following steps are used to include additional information to enrich the knowledge graph.
+
 6. Make sure that you have run the previous steps and there is an [extracted.json](data/extracted.json) file in the *data folder*
 7. To perform clustering and topic modelling run `python ai_tasks/ai_tasks.py`
 8. To perform NER run the [NER notebook](src/ai_tasks/NER.ipynb) manually
 
+Adding the additional extracted data to the data source of the Knowledge Graph 
+
+9. Place the files `abstract_ai_data.json`, `topic_id_list.json` and `acknowledgement_triple.json`, generated in the previous step, in the `src/output` folder.
+10. If you are using Windows run the `generate_csv.bat` file. If you are using Linux run `generate_csv.sh`.
+    This will create a CSV file inside the CSV directory named `data-with-links.csv.`
+
+Knowledge Graph generation and Visualization step
+
+11. If you are using Windows run the `generate_kg.bat` file. If you are using Linux run `generate_kg.sh`.
+    This will create a container called `flask` that runs a web server to visualize the information contained in the Knowledge Graph. The expected output will be:
+
+```
+   Serving Flask app 'main'
+   Debug mode: off
+   WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+   Running on all addresses (0.0.0.0)
+   Running on http://127.0.0.1:8080
+   Running on http://172.17.0.2:8080
+   Press CTRL+C to quit
+```
+12. Finally, you will be able to view the results in your web browser at the following URL:
+  ```bash
+  http://localhost:8080
+  ```
 ## Contact
 
 For any issue contact any of the authors:
