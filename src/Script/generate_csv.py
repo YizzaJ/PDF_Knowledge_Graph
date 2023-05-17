@@ -22,7 +22,7 @@ header = ['ID', 'Title', 'type_of_paper','most_likely_to_title_WD', 'most_likely
           'same_as_organitation_5_WD', 'same_as_organitation_5_OA', 'organitation_name_6', 'location_organitation_6', 
           'same_as_organitation_6_WD', 'same_as_organitation_6_OA','acknowledge_person_1', 'acknowledge_person_2', 
           'acknowledge_person_3', 'acknowledge_person_4', 'acknowledge_person_5','belongs_to_topic', 'topic_words_2', 
-          'topic_words_1','topic_words_0', 'topic_words_7', 'topic_words_4', 'topic_words_5', 'topic_words_6', 
+          'topic_words_1','topic_words_0', 'topic_words_7', 'topic_words_4', 'topic_words_5', 'topic_words_6', 'topic_words_8',
           'topic_probability', 'topic_words_3', 'topic_words_9', 'topic_words_10', 'belongs_to_cluster'
          ]
 def find_topic_words(jsonfile):
