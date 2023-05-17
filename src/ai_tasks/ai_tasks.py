@@ -15,6 +15,9 @@ import string as st
 import re
 from matplotlib import pyplot as plt
 from pathlib import Path
+import gensim
+from gensim.models import LdaModel
+from gensim.models import LdaMulticore
 
 DATA_DIR = Path(__file__).parent.parent.parent / 'data'
 SEED = 0
@@ -130,6 +133,24 @@ def get_topic(docs, n_components=2):
         assigned_prob_list.append(assigned_prob)
         assigned_topic_list.append(assigned_topic)
 
+    # evaluation
+
+    preprocessed_documents = []
+    for document in docs:
+        tokens = count_vectorizer.get_feature_names_out()
+        preprocessed_documents.append(tokens)
+
+    # print(tokens)
+
+    dictionary = gensim.corpora.Dictionary(preprocessed_documents)
+    corpus = [dictionary.doc2bow(doc) for doc in preprocessed_documents]
+
+    lda_model = gensim.models.LdaModel(corpus=corpus, num_topics=2, id2word=dictionary, passes=10)
+    coherence_model = gensim.models.CoherenceModel(model=lda_model, texts=preprocessed_documents, dictionary=dictionary,
+                                                   coherence='c_v')
+    coherence_score = coherence_model.get_coherence()
+    print(f"Coherence score: {coherence_score:.2f}")
+
     return topic_dists, topic_label, assigned_topic_list, assigned_prob_list
 
 
@@ -158,11 +179,12 @@ if __name__ == "__main__":
     data_emb = np.array(data_emb)
     plt.scatter(data_emb[:, 0], data_emb[:, 1], c=cluster)
     plt.title('embeddings for tf-idf paper vectors')
-    plt.show()
+    # plt.show()
 
     # topics
-    topic_distances, topic_labels, assigned_topics, assigned_probs = get_topic(relevant_data, 2)
-    print(np.mean(assigned_probs))
+    # set range if you want to sweep over different n
+    for n in [7]:
+        topic_distances, topic_labels, assigned_topics, assigned_probs = get_topic(relevant_data, n)
 
     # add topic distances to relevant data
     for i in range(topic_distances.shape[1]):
