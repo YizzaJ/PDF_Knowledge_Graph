@@ -1,4 +1,6 @@
 site_name: Documentation for PDF Knowledge Graph
+nav:
+  -home: index.md
 theme:
   name: readthedocs
   highlightjs: true
