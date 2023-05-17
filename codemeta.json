@@ -9,7 +9,7 @@
     "downloadUrl": "https://github.com/YizzaJ/PDF_Knowledge_Graph/releases/tag/v1.1",
     "issueTracker": "https://github.com/YizzaJ/PDF_Knowledge_Graph",
     "name": "PDF Knowledge Graph",
-    "version": "1.1",
+    "version": "2.0",
     "description": "This project refers to a PDF analyzer that by extracting their Abstracs and Acknowledgements, constructs a knowledge graph. This allows the user to have the files categorized regarding common themes and alsogenerate queries against them, being able to extract information such as the authors, organizations acknowledged, and the type of paper they represent. Additionally, the information extracted from the PDFs will be enriched using online sources such as Wikidata and the OpenAlex API.",
     "developmentStatus": "active",
     "referencePublication": "https://zenodo.org/record/7943016#.ZGQLg3ZByMo",
